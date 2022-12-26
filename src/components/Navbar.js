@@ -9,7 +9,7 @@ import Logo from "../Photos/logo.png"
 import { Container , Typography} from '@mui/material';
 export default function ButtonAppBar() {
   return (
-     <Box sx={{ flexGrow: 1 , backgroundColor:'#008296' , display:'flex'}}>
+     <Box sx={{ flexGrow: 1 , backgroundColor:'#008296'}}>
       <Container>
       <AppBar position="static" sx={{ backgroundColor:'#008296'}}>
       <Toolbar>
