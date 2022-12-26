@@ -20,13 +20,6 @@ export default function ButtonAppBar() {
           </Typography>
           <Button color="inherit" sx={{fontWeight: 'bold',
     textDecoration: 'underline'}}>Login</Button>
-          <Button color="inherit" sx={{
-            background: 'orange',
-           ":hover": { background: 'orange' },
-            borderRadius: '20px',
-            fontWeight: 'bold',
-            color: 'black'
-          }}>Start Selling</Button>
       </Toolbar>
       </AppBar>
       </Container>
