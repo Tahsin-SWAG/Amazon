@@ -18,8 +18,11 @@ export default function ButtonAppBar() {
           <img src={Logo}/>
           </Box>
           </Typography>
-          <Button color="inherit" sx={{fontWeight: 'bold',
-    textDecoration: 'underline'}}>Login</Button>
+          <Button color="inherit" sx={{fontWeight: 'bold', textDecoration: 'underline' , fontWeight:'bold' , marginRight:{xs:'0%' , sm:'0%' , md:'7%' , }}}>Log in</Button>
+          <Button color="inherit" sx={{background: 'orange',
+    color: 'black',
+    borderRadius: '22px',
+    fontWeight:'bold'}}>Log in</Button>
       </Toolbar>
       </AppBar>
       </Container>

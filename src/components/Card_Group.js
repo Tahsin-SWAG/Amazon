@@ -10,8 +10,9 @@ export default function ActionAreaCard() {
   return (
 <Box>
 <Container>
-    <Box sx={{display:{xs:'block' , sm:'block' , md:'block' , lg:'flex'} , gridTemplateColumns: 'repeat(3, 1fr)' , marginTop:'6%' , justifyContent:'center' ,alignItems:'center'}}>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , margin:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250}}>
+  <Typography variant='h4' sx={{marginLeft:{lg:'4%' , fontWeight:'bold' , marginTop:'5%'}}}>Need more information about selling on Amazon?</Typography>
+  <Box sx={{display:{xs:'block' , sm:'block' , md:'block' , lg:'flex'} , gridTemplateColumns: 'repeat(3, 1fr)' ,  justifyContent:'center' ,alignItems:'center' , marginLeft:{xs:'0%' , sm:'0%' ,md:'3%'} , marginTop:'5%'}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 ,  marginRight:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/SOA_Mobile_INR._CB424651258_.svg' style={{width: '60px',
     padding: '20px'}}/>
@@ -25,7 +26,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , marginRight:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 , marginRight:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250 , marginTop:{xs:'5%' , sm:'5%' , md:'5%' ,lg:'0%'}}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Paid_Services_INR._CB424651263_.svg' style={{width: '60px',
     padding: '20px'}}/>
@@ -39,7 +40,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , height:250}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 , height:250 , marginTop:{xs:'5%' , sm:'5%' , md:'5%' ,lg:'0%'}}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Checklist._CB424651247_.svg' style={{width: '60px',
     padding: '20px'}}/>
@@ -57,7 +58,7 @@ export default function ActionAreaCard() {
     </Container>
     <Container>
     <Box sx={{display:{xs:'block' , sm:'block' , md:'block' , lg:'flex'} , gridTemplateColumns: 'repeat(3, 1fr)' ,  justifyContent:'center' ,alignItems:'center'}}>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , margin:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 , margin:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250 ,marginTop:{xs:'5%'}}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Money-02_INR._CB1198675309_.svg' style={{width: '60px',
     padding: '20px'}}/>
@@ -71,7 +72,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , marginRight:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 , marginRight:{xs:0, sm:0 , md:'30px' , lg:'30px'} , height:250 , marginTop:{xs:'5%' , sm:'5%' , md:'5%' ,lg:'0%'}}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/FBA._CB424651236_.svg' style={{width: '60px',
     padding: '20px'}}/>
@@ -85,7 +86,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    <Card sx={{maxWidth: 345 , boxShadow:5 , height:250}}>
+    <Card sx={{maxWidth: 345 , boxShadow:5 , height:250 , marginTop:{xs:'5%' , sm:'5%' , md:'5%' ,lg:'0%'}}}>
       <CardActionArea>
        <img src='https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Business_Growth._CB424651247_.svg' style={{width: '60px',
     padding: '20px'}}/>
