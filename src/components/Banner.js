@@ -6,12 +6,12 @@ import { Button, Typography} from '@mui/material';
 import Bannerphoto from '../Photos/banner_photo.png';
 export default function Banner() {
     return(
-     <Box sx={{backgroundImage: `url(${Bannerphoto})` , height:{xs:640 ,sm:640 ,md:640 , lg:440} , overflow:'hidden' , backgroundRepeat:'no-repeat' }}>
+     <Box sx={{backgroundImage: `url(${Bannerphoto})` , height:{xs:713 ,sm:640 ,md:540 , lg:440} , overflow:'hidden' , backgroundRepeat:'no-repeat' }}>
        <Container>
        <Box sx={{float:'left'}}>
             <Typography variant='h5' sx={{fontWeight: 'bold',  color: 'white', fontSize: '40px',  marginTop: '73px',  width: '85%'}}>Begin your selling journey 
             on Amazon</Typography>
-            <Typography sx={{width: '519px',  fontWeight: 'bold',  color: 'white',  marginTop: '17px',  fontSize: '16px'}}>
+            <Typography sx={{width:{ md:'519px'  } , fontWeight: 'bold',  color: 'white',  marginTop: '17px',  fontSize: '16px'}}>
             Sell on Amazon.in and get a chance for long-term growth. Register now and avail 1-Click launch support at no additional cost
             </Typography>
              <Button sx={{ color: 'black', background: 'orange',  width: '23%',  borderRadius: '25px',  height: '52px',  fontWeight: 'bold',  marginTop: '24px',}}>Start selling</Button> 

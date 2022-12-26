@@ -9,7 +9,7 @@ import Logo from "../Photos/logo.png"
 import { Container , Typography} from '@mui/material';
 export default function ButtonAppBar() {
   return (
-     <Box sx={{ flexGrow: 1 , backgroundColor:'#008296'}}>
+     <Box sx={{ flexGrow: 1 , backgroundColor:'#008296' , display:'flex'}}>
       <Container>
       <AppBar position="static" sx={{ backgroundColor:'#008296'}}>
       <Toolbar>
@@ -19,10 +19,6 @@ export default function ButtonAppBar() {
           </Box>
           </Typography>
           <Button color="inherit" sx={{fontWeight: 'bold', textDecoration: 'underline'  , marginRight:{xs:'0%' , sm:'0%' , md:'7%' , }}}>Log in</Button>
-          <Button color="inherit" sx={{background: 'orange',
-    color: 'black',
-    borderRadius: '22px',
-    fontWeight:'bold'}}>Log in</Button>
       </Toolbar>
       </AppBar>
       </Container>

@@ -9,7 +9,7 @@ export default function Section() {
 return (
 <Container sx={{justifyContent:'center'}}>
   <Box sx={{ display:'flex' , border:'1px solid #8ccfeb'}}>
-  <Box sx={{marginTop:{xs:'7%' , sm:'2%' , md:'0%' , lg:'0%'}}}>
+  <Box sx={{marginTop:{xs:'10%' , sm:'2%' , md:'0%' , lg:'0%'}}}>
     <img src="https://m.media-amazon.com/images/G/31/selldot/Images/WebpImages/LaunchOfferBanner.webp" style={{width:'100px' , padding:'30px'}}/>
   </Box>
   <Box sx={{marginLeft:{lg:'10px'}}}>
